@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+  background-color: lightblue;
+  }
+  h1 {
+  color: black);
+  font-family: "Times New Roman", Times, serif;
+  }
+  
+  * {
+  max-width: 700px;
+  margin: auto;
+  }
+  
+  
+  div {
+  border-radius: 3px;
+  }
+  
+  #header {
+  height: 40px;
+  width: 100%;
+  background-color: slategray;
+  position: fixed;
+  z-index: 1;
+  }
+  
+  #title {
+  margin-left: 3%;
+  }
+  
+  #footer {
+  height: 50px;
+  width: 100%;
+  background-color: slategray;
+  clear: both;
+  position: relative;
+  }
+  
+  .left {
+  height: 1000px;
+  width: 45px;
+  background-color: lightgray;
+  float: left;
+  position: fixed;
+  }
+  
+  .right {
+  height: 1000px;
+  width: 45px;
+  background-color: lightgray;
+  float: right;
+  position: inherit;
+  }
+  
+  .stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+  }
+  
+  p,
+  li {
+  font-family: 'Cormorant Garamond';
+  }
+  
+  .head {
+  font-size: 20px;
+  }
+  
+  #name {
+  font-family: "Times New Roman", Times, serif;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+  }
+  
+  a {
+  color: rosybrown;
+  text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+  .left,
+  .right {
+  display: none;
+  }
+
+  }
